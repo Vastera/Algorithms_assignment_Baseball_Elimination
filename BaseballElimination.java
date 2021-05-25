@@ -179,7 +179,7 @@ public class BaseballElimination {
         if (isEliminated(team))
             return R;
         else
-            throw new IllegalArgumentException(team + " hasn't been eliminated~");
+            return null;
     }
 
     public static void main(String[] args) {
